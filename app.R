@@ -1,7 +1,7 @@
   library(shiny)
   library(shinyMobile)
 
-Sys.setenv(SAMPLE_KEY = "testit")
+#Sys.setenv(SAMPLE_KEY = "testit")
 sample_key <- Sys.getenv("SAMPLE_KEY")
 
     ui = f7Page(
